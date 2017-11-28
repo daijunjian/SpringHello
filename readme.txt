@@ -10,3 +10,6 @@ web工程没有调用service工程中的dubbo接口
     -Dcglib.debugLocation=D:\\\\code
     jdk代理类，格式：$Proxy11.class
     cglib代理类，格式：BeanService$$EnhancerBySpringCGLIB$$88391dcb.class
+
+    非模块项目，也就是单独项目中，jdk生成代理类，项目启动会报错
+    Exception in thread "main" java.lang.InternalError: I/O exception saving generated file: java.io.FileNotFoundException: com\sun\proxy\$Proxy0.class (系统找不到指定的路径。)
